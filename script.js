@@ -44,6 +44,8 @@ async function func(num1, num2) {
 
         let th3 = document.createElement("th")
         th3.innerHTML = "EMAIL"
+        
+          var tbody = document.createElement("tbody")
 
         tr.append(th1, th2, th3)
         thead.append(tr)
@@ -52,7 +54,7 @@ async function func(num1, num2) {
 
         for (var i = num1; i < num2; i++) {
 
-            var tbody = document.createElement("tbody")
+          
 
             var tr1 = document.createElement("tr")
 
